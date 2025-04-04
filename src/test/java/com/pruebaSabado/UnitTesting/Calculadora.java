@@ -19,6 +19,11 @@ class Calculadora {
         assertEquals(5, calc.sumar(2, 3));
     }
     
+    @Test
+    void testSumar2() {
+        Calculadora calc = new Calculadora();
+        assertEquals(5, calc.sumar(2, 3));
+    }
     
     
     
